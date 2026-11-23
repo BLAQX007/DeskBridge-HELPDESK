@@ -35,36 +35,37 @@ Instead of forcing non-technical users to explain complex system errors, this to
 * **Tiered Escalation Workflow:** One-click escalation from Tier 1 to Tier 2/Tier 3 support with full diagnostic context preserved.
 * **Data & Analytics Dashboard:** Transforms raw ticket logs into actionable insights—tracking recurring error categories, self-service resolution rates, and average resolution times.
 
+## 🚀 How to Run (Zero External Dependencies)
+DeskBridge is built using **Python 3.12+** standard libraries (`tkinter`, `sqlite3`, `subprocess`, `socket`, `ctypes`, `csv`) so anyone can clone and run it immediately without installing heavy packages:
 
-🚀 How to Run (Zero External Dependencies)
-
-DeskBridge is built using Python 3.12+ standard libraries (tkinter, sqlite3, subprocess, socket, ctypes, csv) so anyone can clone and run it immediately without installing heavy packages:
-bash
-git clone https://github.com/BLAQX007/DeskBridge-HELPDESK.git
+```bash
+git clone https://github.com
 cd DeskBridge-HELPDESK
 python main.py
-Use code with caution.
+```
 
-🔑 Demo Login Accounts
+### 🔑 Demo Login Accounts
 
+| Role | Username | Password |
+| :--- | :--- | :--- |
+| **Client (End-User)** | `client1` | `pass123` |
+| **Internal IT Support (Tier 1)** | `tech1` | `admin123` |
+| **Outsourced MSP Technician** | `msp_tech` | `msp123` |
 
-Role	Username	Password
-Client (End-User)
-	client1	pass123
-Internal IT Support (Tier 1)
-	tech1	admin123
-Outsourced MSP Technician
-	msp_tech	msp123
+---
 
+## 🗺️ Development Roadmap
+* [x] **Phase 1:** Core Windows diagnostic scanner & ITIL error-code mapper (`diagnostics.py`)
+* [x] **Phase 2:** Dual-account authentication (`Client` vs. `IT Team`) & SQLite ticket database (`database.py`)
+* [x] **Phase 3:** Hotkey listener (`Ctrl + .`), consent-based support workflow, and Tier 1 → Tier 2 escalation (`main.py`)
+* [x] **Phase 4:** Ticket analytics & CSV reporting dashboard (`main.py`)
+* [ ] **Phase 5 (Planned):** Live LLM API toggle & encrypted socket screen-sharing tunnel
 
-🗺️ Development Roadmap
+---
 
-• [x] Phase 1: Core Windows diagnostic scanner & ITIL error-code mapper (diagnostics.py)
-• [x] Phase 2: Dual-account authentication (Client vs. IT Team) & SQLite ticket database (database.py)
-• [x] Phase 3: Hotkey listener (Ctrl + .), consent-based support workflow, and Tier 1 → Tier 2 escalation (main.py)
-• [x] Phase 4: Ticket analytics & CSV reporting dashboard (main.py)
-• [ ] Phase 5 (Planned): Live LLM API toggle & encrypted socket screen-sharing tunnel
-#### 🔒 Copyright & Usage
-
-© 2026 Thato Dintso. All Rights Reserved.
+## 🔒 Copyright & Usage
+© 2026 Thato Dintso. All Rights Reserved.  
 This repository is shared publicly for portfolio and technical demonstration purposes. Unauthorized copying, redistribution, or commercial use of this code without explicit permission is prohibited.
+
+
+
