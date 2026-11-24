@@ -1,5 +1,7 @@
 #### DeskBridge-HelpDesk
 
+<img width="1366" height="768" alt="DeskBridge login page" src="https://github.com/user-attachments/assets/7e3a2d3c-80c1-4b88-9ebb-5c4a385e36c2" />
+
 **Status:** 🚧 Active Development (MVP Phase)
 **Author:** Thato Dintso 
 
@@ -23,12 +25,18 @@ Instead of forcing non-technical users to explain complex system errors, this to
 * **Smart Ticket Logging:** Automatically maps unresolved faults to structured **ITIL categories**, assigns priority levels (P1–P4), generates a diagnostic error code, and issues a unique Ticket ID.
 * **Flexible Support Preferences:** Lets the client choose how they want help: 
 
+<img width="1366" height="768" alt="operational analythics" src="https://github.com/user-attachments/assets/4330a2db-ed84-46c2-8df7-d788d51a0f15" />
+<img width="1366" height="768" alt="operational analythics" src="https://github.com/user-attachments/assets/e6cdd0e6-1c81-4f38-8cf1-3a0a838a962a" />
+<img width="1366" height="768" alt="Remote acess security pin" src="https://github.com/user-attachments/assets/8f006808-6a7f-48dd-a641-b2a2d3a3e9d3" />
+
   * Self-Troubleshoot (with guided steps)
   * Consent-Based Remote Access (generates a temporary session authorization token)
   * Voice / Video Guided Walkthrough
   * Walk-In IT Support Booking
 
 #### 🛠️ IT Team Account (Technician & MSP Side)
+
+<img width="1366" height="768" alt="logged tickets and descriptions" src="https://github.com/user-attachments/assets/45b953b4-3bee-495a-9229-b5e8c206500e" />
 
 * **Role-Based Access Control:** Separate workspace for internal IT staff or outsourced support providers.
 * **Error Code & Log Translator:** Converts specialized diagnostic codes and raw system telemetry into plain-English fault summaries (with optional AI-assisted root-cause analysis).
